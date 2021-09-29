@@ -7,8 +7,12 @@
 .grid-container{
     display: grid;
     grid-template-columns: 100px 150px;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
     height: 100vh;
-    border: 10px solid #089288;
+    border: 10px solid #089288; 
+    justify-content: center;
+    align-content: space-between;
 }
 .grid-item{
     background-color: #E3ED90;
